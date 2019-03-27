@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css?family=Euphoria+Script');
+
+.containerFluid {
+	background: url('../../../../assets/images/goldBg.jpg') 0/cover fixed;
+	height: 100%;
+	overflow-y: auto;
+}
+
+.welcomeContainer,
+.carouselContainer {
+	max-width: 960px;
+	width: 100%;
+	margin: 0 auto;
+}
+
+.welcomeContainer {
+	min-height: calc(100vh - 490px);
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 10px 0 15px;
+}
+
+.data,
+.countdown {
+	padding: 0;
+	display: flex;
+}
+
+.data {
+	flex-direction: column;
+	justify-content: center;
+	font-family: 'Euphoria Script', cursive;
+	font-size: 1.3em;
+	font-weight: 600;
+	color: #800020;
+}
+
+.countdown {
+	align-items: center;
+}
+
+.names {
+	font-size: 2.3em ;
+}
+
+.carouselContainer {
+	box-shadow: 0 0 18px #000;
+	margin-bottom: 20px;
+}
+
+@media (max-width: 992px) {
+	.containerFluid {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.welcomeContainer {
+		height: calc(100vh - 485px);
+	}
+	.carouselContainer {
+		margin-bottom: 15px;
+	}
+}
+
+@media (max-width: 768px) {
+	.welcomeContainer {
+		height: 220px;
+	}
+	.data {
+		text-align: center;
+	}
+	.data:after {
+		position: absolute;
+		bottom: 0;
+		left: 0;
+		right: 0;
+		margin: auto;
+		width: 100%;
+		content: '';
+		height: 1px;
+		box-shadow: 1px 1px 4px #000;
+	}
+	.carouselContainer {
+		margin-top: 5px;
+	}
+}

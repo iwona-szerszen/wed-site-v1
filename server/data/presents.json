@@ -1,0 +1,78 @@
+[	
+	{
+		"_id": "5c3f573551a9ce233ca6a306",
+		"name": "Flight Tickets to Mauritius",
+		"price": 2600,
+		"image": "flightTickets.jpg"
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a307",
+		"name": "SPA Vouchers to Sans Souci Wien",
+		"price": 250,
+		"image": "spa.jpg",
+		"reserved": true
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a308",
+		"name": "Coffee Machine Philips OTC EP5360/10",
+		"price": 460,
+		"image": "coffeeMachine.jpg"
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a309",
+		"name": "TV Samsung QLED QE55Q7FN",
+		"price": 1230,
+		"image": "tv.jpg",
+		"reserved": true
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a310",
+		"name": "Camera Canon EOS M5",
+		"price": 600,
+		"image": "camera.jpg"
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a311",
+		"name": "Diving course for Two",
+		"price": 900,
+		"image": "divingCourse.jpg"
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a312",
+		"name": "Pushpin World Map",
+		"price": 130,
+		"image": "worldMap.jpg",
+		"reserved": true
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a313",
+		"name": "Anniversary Wine Box",
+		"price": 165,
+		"image": "wineBox.jpg"
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a314",
+		"name": "Barsys Robot Bartender",
+		"price": 1000,
+		"image": "bartender.jpg",
+		"reserved": true
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a315",
+		"name": "Our Story Canvas",
+		"price": 80,
+		"image": "canvas.jpg"
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a316",
+		"name": "Witchen Luggage Set",
+		"price": 500,
+		"image": "luggageSet.jpg"
+	},
+	{
+		"_id": "5c3f573551a9ce233ca6a317",
+		"name": "Do Good Hammock",
+		"price": 130,
+		"image": "hammock.jpg"
+	}
+]

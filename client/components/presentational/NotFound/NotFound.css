@@ -1,0 +1,7 @@
+.containerFluid {
+	min-height: calc(100vh - 100px);
+	height: 100%;
+	padding: 30px 15px 0;
+	text-align: center;
+	background-color: #F1F1F1;
+}

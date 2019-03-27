@@ -1,0 +1,14 @@
+.formContainer {
+	max-width: 445px;
+	width: 100%;
+	margin: 30px auto 15px;
+	padding: 15px 15px 2px;
+	background-color: #fff;
+	border-radius: 5px;
+	box-shadow: 0 0 50px rgba(0, 0, 0, 0.7);
+	font-size: 16px;
+}
+
+.editConfirmationInfo {
+	font-size: 17px;
+}

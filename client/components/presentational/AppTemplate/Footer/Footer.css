@@ -1,0 +1,19 @@
+footer {
+	background: #fff url('../../../../../assets/images/gold.jpg') 0/cover;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+	box-shadow: 0 -4px 10px #777;
+	position: relative;
+	z-index: 1;
+}
+
+footer a {
+	color: #000;
+	font-weight: 600;
+}
+
+footer a:hover {
+	color: #fff;
+	text-decoration: none;
+}

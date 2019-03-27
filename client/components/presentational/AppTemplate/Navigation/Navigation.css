@@ -1,0 +1,105 @@
+.navContainer {
+	background: #fff url('../../../../../assets/images/gold.jpg') 0/cover;
+	width: 100%;
+	box-shadow: 0 3px 10px #777;
+	position: relative;
+	z-index: 1;
+}
+
+.navigation {
+	max-width: 960px;
+	margin: 0 auto;
+	padding: 0;
+	min-height: 50px;
+}
+
+.toggleButton {
+	border: 1px solid rgba(0,0,0,0.4) !important;
+	margin-bottom: 5px;
+}
+
+.toggleButton:not(:disabled) {
+	outline: none !important;
+	margin-top: 5px;
+}
+
+.link {
+	margin-right: 20px;
+}
+
+.link,
+.yourProfile {
+	font-variant: small-caps;
+	font-size: 18px;
+	letter-spacing: 1px;
+	position: relative;
+	padding-bottom: 5px;
+	color: #000;
+	font-weight: 600;
+	text-shadow: 1px 2px 5px #fff;
+}
+
+.link:after,
+.yourProfile:after {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	width: 0%;
+	content: '';
+	color: transparent;
+	background: #fff;
+	height: 1px;
+	box-shadow: 1px 1px 3px #000;
+}
+
+.link,
+.link:after,
+.yourProfile,
+.yourProfile:after {
+	transition: all 0.4s;
+}
+
+.link:hover,
+.yourProfile:hover,
+.active {
+	text-decoration: none;
+	color: #fff;
+	text-shadow: 3px 2px 5px #000;
+}
+
+.link:hover:after,
+.yourProfile:hover:after,
+.active:after {
+	width: 100%;
+}
+
+@media (max-width: 992px) {
+	.navigation {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+}
+
+@media (max-width: 576px) {
+	.navContainer {
+		background-position:center top;
+	}
+
+	.link {
+		margin-right: 0;
+	}
+
+	.link,
+	.yourProfile {
+		text-align: center;
+		padding-bottom: 10px;
+	}
+
+	.link:hover:after,
+	.yourProfile:hover:after,
+	.active:after {
+		width: 0;
+	}
+}

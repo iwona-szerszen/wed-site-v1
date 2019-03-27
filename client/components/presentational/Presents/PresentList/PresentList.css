@@ -1,0 +1,107 @@
+.presentCard,
+.presentCardDisabled {
+	text-align: center;
+	width: 200px;
+	height: 300px;
+	margin: 0 15px 53px;
+	background-color: #fff;
+	border-radius: 7px;
+	box-shadow: 3px 3px 20px rgba(0, 0, 0, 0.5);
+}
+
+.presentCard {
+	transition: all 0.3s ease-in-out;
+}
+
+.presentCard:hover {
+	transform: scale(1.05);
+	box-shadow: 3px 3px 40px rgba(0, 0, 0, 0.5);
+}
+
+.presentCard:hover .name {
+	color: #D19E1B;
+}
+
+.userPresentList .presentCard:hover .name {
+	color: #17A2B8;
+}
+
+.presentCard img,
+.presentCardDisabled img {
+	width: 100%;
+	height: 170px;
+	border-top-left-radius: 7px;
+	border-top-right-radius: 7px;
+	border-bottom: 1px solid #ccc;
+}
+
+.cardContent {
+	height: 130px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 5px;
+}
+
+.name {
+	flex: 2;
+	display: flex;
+	justify-content: center;
+	align-items: flex-end;
+	font-size: 17px;
+	font-weight: 600;
+	transition: all 0.3s ease-in-out;
+}
+
+.price {
+	flex: 1;
+	transition: all 0.3s ease-in-out;
+}
+
+.buttonContainer {
+	flex: 2;
+}
+
+.reserveButton,
+.cancelButton {
+	border: none;
+	transition: all 0.3s ease-in-out;
+}
+
+.reserveButton {
+	background-color: #D19E1B;
+}
+
+.reserveButton:hover {
+	background-color: #FFCF40;
+}
+
+.presentList,
+.userPresentList {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -15px;
+}
+
+.presentList {
+	justify-content: space-between;
+}
+
+.userPresentList {
+	justify-content: center;
+}
+
+.userPresentList .presentCard {
+	margin-bottom: 30px;
+}
+
+@media (max-width: 992px) {
+	.presentList {
+		justify-content: center;
+	}
+	
+	.presentCard,
+	.presentCardDisabled {
+		margin-bottom: 30px;
+	}
+}
